@@ -7,7 +7,10 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 
+import logoImg from "../../public/emma-croche.png";
+
 import Cart from "../cart";
+import Image from "next/image";
 
 const navigation = {
   categories: [
@@ -339,10 +342,12 @@ export default function Header() {
                 <div className="ml-4 flex lg:ml-0">
                   <a href="#">
                     <span className="sr-only">Your Company</span>
-                    <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=sky&shade=500"
-                      alt=""
+                    <Image
+                      className="h-8 w-auto rounded-full"
+                      src={logoImg}
+                      alt="logo emma-croche"
+                      width="55px"
+                      height="55px"
                     />
                   </a>
                 </div>
