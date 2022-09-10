@@ -15,11 +15,11 @@ import Image from "next/image";
 const navigation = {
   categories: [
     {
-      id: "women",
-      name: "Women",
+      id: "moda",
+      name: "Moda",
       featured: [
         {
-          name: "New Arrivals",
+          name: "Novidades",
           href: "#",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
@@ -37,34 +37,25 @@ const navigation = {
       ],
       sections: [
         {
-          id: "clothing",
-          name: "Clothing",
+          id: "Praia",
+          name: "Praia",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Dresses", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Denim", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
+            { name: "Biquini", href: "#" },
+            { name: "Saida de Praia", href: "#" },
+            { name: "Chapeu", href: "#" },
           ],
         },
         {
-          id: "accessories",
-          name: "Accessories",
+          id: "acessorios",
+          name: "Acessorios",
           items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
-            { name: "Bags", href: "#" },
-            { name: "Sunglasses", href: "#" },
-            { name: "Hats", href: "#" },
-            { name: "Belts", href: "#" },
+            { name: "Brincos", href: "#" },
+            { name: "Bolsas", href: "#" },
+            { name: "Colares", href: "#" },
           ],
         },
         {
-          id: "brands",
+          id: "Pets",
           name: "Brands",
           items: [
             { name: "Full Nelson", href: "#" },
@@ -77,11 +68,11 @@ const navigation = {
       ],
     },
     {
-      id: "men",
-      name: "Men",
+      id: "Casa",
+      name: "Casa",
       featured: [
         {
-          name: "New Arrivals",
+          name: "Novidades",
           href: "#",
           imageSrc:
             "https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
@@ -99,46 +90,37 @@ const navigation = {
       ],
       sections: [
         {
-          id: "clothing",
-          name: "Clothing",
+          id: "Chachepôs",
+          name: "Chachepôs",
           items: [
-            { name: "Tops", href: "#" },
-            { name: "Pants", href: "#" },
-            { name: "Sweaters", href: "#" },
-            { name: "T-Shirts", href: "#" },
-            { name: "Jackets", href: "#" },
-            { name: "Activewear", href: "#" },
-            { name: "Browse All", href: "#" },
+            { name: "Grande", href: "#" },
+            { name: "Pequenos", href: "#" },
+            { name: "Medios", href: "#" },
           ],
         },
         {
-          id: "accessories",
-          name: "Accessories",
+          id: "souplast",
+          name: "Souplast",
           items: [
-            { name: "Watches", href: "#" },
-            { name: "Wallets", href: "#" },
-            { name: "Bags", href: "#" },
-            { name: "Sunglasses", href: "#" },
-            { name: "Hats", href: "#" },
-            { name: "Belts", href: "#" },
+            { name: "Conjunto 6 peças", href: "#" },
+            { name: "Conjunto 4 peças", href: "#" },
+            { name: "Conjunto 2 peças", href: "#" },
           ],
         },
         {
-          id: "brands",
-          name: "Brands",
+          id: "tapetes",
+          name: "Tapetes",
           items: [
-            { name: "Re-Arranged", href: "#" },
-            { name: "Counterfeit", href: "#" },
-            { name: "Full Nelson", href: "#" },
-            { name: "My Way", href: "#" },
+            { name: "Redondo", href: "#" },
+            { name: "Quadrado", href: "#" },
           ],
         },
       ],
     },
   ],
   pages: [
-    { name: "Company", href: "#" },
-    { name: "Stores", href: "#" },
+    { name: "Saiba Mais", href: "#" },
+    { name: "Fale conosco", href: "#" },
   ],
 };
 
@@ -482,14 +464,14 @@ export default function Header() {
                       href="#"
                       className="text-sm font-medium text-sky-600 hover:text-sky-700"
                     >
-                      Sign in
+                      Login
                     </a>
                     <span className="h-6 w-px bg-gray-200" aria-hidden="true" />
                     <a
                       href="#"
                       className="text-sm font-medium text-sky-600 hover:text-sky-700"
                     >
-                      Create account
+                      Criar Conta
                     </a>
                   </div>
 
